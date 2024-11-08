@@ -34,7 +34,7 @@ export default function Product({ data, cartShop, isSelected, totalQuantity, ena
   return (
     <li className="w-full mx-auto">
       <div className="relative mb-8 mx-auto flex flex-col justify-center">
-        <picture className={`rounded-lg border-[3px] ${isSelected ? 'border-orange-500' : 'border-transparent'} transition-colors `}>
+        <picture className={`hover:border-orange-500 rounded-lg border-[3px] ${isSelected ? 'border-orange-500' : 'border-transparent'} transition-colors `}>
           <source srcSet={data.image.desktop} media="(min-width: 1280px)" />
           <source srcSet={data.image.tablet} media="(min-width: 768px)" />
           <img className="rounded-md" src={data.image.mobile} alt={data.name} />
