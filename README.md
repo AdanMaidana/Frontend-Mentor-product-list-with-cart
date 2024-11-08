@@ -19,10 +19,10 @@ Users should be able to:
 ### Screenshot
 
 ### Desktop Preview
-![](./desktop-preview.jpg)
+![](./public/desktop-preview.jpg)
 
 ### Mobile Preview
-![](./mobile-preview.jpg)
+![](./public/mobile-preview.jpg)
 
 ### Links
 
