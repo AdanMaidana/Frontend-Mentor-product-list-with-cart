@@ -47,7 +47,7 @@ export default function Modal({ products, showModal, handleShowModal }) {
   return (
     <dialog ref={dialogRef} className='modal w-full max-w-[500px] rounded-lg ' >
       <div className="modal-box p-8">
-        <img src='/icon-order-confirmed.svg' alt='order confirmed' className='mb-4' />
+        <img src='./icon-order-confirmed.svg' alt='order confirmed' className='mb-4' />
         <h2 className='text-[2.20rem] font-bold'>Order Confirmed</h2>
         <p className='mb-6 text-[#988e8d] text-sm'>We hope you enjoy your food!</p>
 

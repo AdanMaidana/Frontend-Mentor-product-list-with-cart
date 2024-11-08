@@ -27,7 +27,7 @@ export default function YourCart({ products, cartShop, setSelectedProducts, onMo
       {totalQuantity <= 0 ?
         (
           <>
-            <img src="/illustration-empty-cart.svg" alt="empty car" className="mx-auto mt-10" />
+            <img src="./illustration-empty-cart.svg" alt="empty car" className="mx-auto mt-10" />
             <p className="text-center text-sm text-[#8a7872] font-semibold">Your added items will appear here</p>
           </>
         )
