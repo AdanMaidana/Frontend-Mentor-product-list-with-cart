@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 export default function Product({ data, cartShop, isSelected, totalQuantity, enableProduct }) {
 
   function handleCart(action) {
