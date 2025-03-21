@@ -1,0 +1,3 @@
+.product-button:hover + picture {
+  border-color: #f97316 ;
+}
